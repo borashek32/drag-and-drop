@@ -1,0 +1,20 @@
+.container {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+.dropBox {
+    width: 240px;
+    height: 300px;
+    border: 1px solid grey
+}
+.userContainer {
+    width: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px
+}
