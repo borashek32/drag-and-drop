@@ -6,12 +6,12 @@ const slice = createSlice({
   name: 'users',
   initialState: {
     users: [
-      {id: 1, name: 'user 1', isMentor: false},
-      {id: 2, name: 'user 2', isMentor: false},
-      {id: 3, name: 'user 3', isMentor: false},
-      {id: 4, name: 'user 4', isMentor: false},
-      {id: 5, name: 'user 5', isMentor: false},
-      {id: 6, name: 'user 6', isMentor: false}
+      {id: 1, name: 'Nataly', isMentor: false},
+      {id: 2, name: 'Polina', isMentor: false},
+      {id: 3, name: 'Igor', isMentor: false},
+      {id: 4, name: 'Vadim', isMentor: false},
+      {id: 5, name: 'Olga', isMentor: false},
+      {id: 6, name: 'Petr', isMentor: false}
     ] as UserType[]
   },
   reducers: {
